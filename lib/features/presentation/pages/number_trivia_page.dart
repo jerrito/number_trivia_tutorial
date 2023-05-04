@@ -26,7 +26,7 @@ class NumberTriviaPage extends StatelessWidget {
           padding: const EdgeInsets.all(10),
           child: Column(
             children: <Widget>[
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               // Top half
               BlocBuilder<NumberTriviaBloc, NumberTriviaState>(
                 builder: (context, state) {

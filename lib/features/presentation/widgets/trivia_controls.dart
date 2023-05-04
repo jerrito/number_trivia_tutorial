@@ -24,7 +24,7 @@ class _TriviaControlsState extends State<TriviaControls> {
         TextField(
           controller: controller,
           keyboardType: TextInputType.number,
-          decoration: InputDecoration(
+          decoration: const InputDecoration(
             border: OutlineInputBorder(),
             hintText: 'Input a number',
           ),

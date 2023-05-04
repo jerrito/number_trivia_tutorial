@@ -15,8 +15,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 final sl = GetIt.instance;
 
 Future<void> init() async {
-  //! Features - Number Trivia
-  // Bloc
   sl.registerFactory(
     () => NumberTriviaBloc(
       concrete: sl(),
